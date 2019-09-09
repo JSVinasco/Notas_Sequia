@@ -1,0 +1,20 @@
+# correr de manera interactiva
+
+sudo docker run -it --rm -v $(pwd):/grassdb/ jsvinasco/grass-py3-ml1 grass -text Tesis_Guajira/PERMANENT
+
+# probemos con python
+
+sudo docker run -it --rm -v $(pwd):/grassdb/ jsvinasco/grass-py3-ml1 grass -text Tesis_Guajira/PERMANENT
+
+# bash
+
+sudo docker run -it --rm -v $(pwd):/grassdb/ jsvinasco/grass-py3-ml1 grass -text Tesis_Guajira/PERMANENT  --exec bash prueba_grass_container.sh
+
+
+
+
+
+
+
+
+
